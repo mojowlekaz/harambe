@@ -1,0 +1,164 @@
+
+@import url('https://fonts.cdnfonts.com/css/jungle?styles=12761');
+@import url('https://fonts.cdnfonts.com/css/tropical-forest');
+
+
+.airdrop{
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    background: #0c1a13;
+    height: 1000px;
+}
+article{
+    color:#fff;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Tropical Forest', sans-serif;
+    letter-spacing: 4px;
+}
+
+.pop{
+  background:rgb(180, 177, 177);
+  height: 25vh;
+  width: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+aside{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Tropical Forest', sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h6{
+    color:#0c1a13;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: 'Tropical Forest', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont{
+    padding: 70px;
+}
+
+.Button{
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 50px;
+    width: 180px;
+    outline: none;
+    border: none;
+    color: #0c1a13;
+    font-size: 19px;
+    background-size:  0% 3px;
+    transition: background-color 300ms ease;
+    /* background: transparent; */
+  }
+  
+  .Button:hover, :focus {
+    color:#ffffff;
+    background: #0c1a13;
+    border: 0.1px solid  #ffffff ;
+    background-size: 100% 3px;
+    transition: color 300ms ease-in;
+    transform:scaleX(1);
+  }
+  
+  .Button:hover,   :focus {
+    color:#ffffff;
+    background: #0c1a13;
+  }
+  q{
+    width: 100px;
+    height: 30px;
+  }
+  .boxx{
+    height: 50px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #0c1a13;
+    outline: none;
+    color:#0c1a13;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btnn{
+    border: none;
+    justify-content: center;
+    width: 0px;
+    height: 0px;
+    /* background: transparent; */
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    .airdrop{
+        /* justify-content: center; */
+        /* align-items: center; */
+        display: flex;
+        flex-direction: column;
+        background: #0c1a13;
+        height: 1000px;
+    }
+    .cont{
+        padding: 20px;
+        /* height: 100%; */
+    }
+    .pop{
+      background:rgb(180, 177, 177);
+      height: 25vh;
+      width: 30vh;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -80%);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      z-index: 1;
+    }
+    
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1276px){
+  .airdrop{
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    background: #0c1a13;
+    height: 1000px;
+    width: 150%;
+}
+
+}

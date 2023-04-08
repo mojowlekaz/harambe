@@ -1,0 +1,188 @@
+@import url('https://fonts.cdnfonts.com/css/jungle?styles=12761');
+@import url('https://fonts.cdnfonts.com/css/tropical-forest');
+
+.About{
+
+    background-color: #646f6d;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 750px;
+
+}
+
+
+.labe{
+    font-family: 'Jungle', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-display: fallback; 
+    color:#ffffff;    
+    font-weight: 800;  
+    font-size: 40px;               
+                                                
+}
+.boo{
+    display: none;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+  }
+  
+
+.box{
+    background-color: #ffffff;
+    height: 70%;
+    width: 900px;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12),
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06);
+    background: #0c1a13;
+    position: relative;
+
+    
+}
+
+
+.inner-text{
+    padding: 9%;
+}
+
+
+.inner-text-1{
+    padding-left: 9%;
+}
+
+
+.p{
+    color:#ffffff;
+    font-size: 18px;
+    position: absolute;
+}
+.img-ha{
+
+    border-radius: 100%;
+
+    
+} 
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    .About{
+        background-color: #646f6d;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 700px;
+    }
+
+.box1{
+    background-color: #ffffff;
+    height: 70%;
+    width: 90px;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12),
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06);
+    background: #0c1a13;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    
+}
+.box{
+    background-color: #ffffff;
+    height: 90%;
+    width: 900px;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12),
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06);
+    background: #0c1a13;
+    position: relative;
+
+    
+}
+
+.inner-text{
+    display: none;
+}
+
+.inner-text-1{
+    display: none;
+}
+.boo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 10px;
+    padding-left: 20px;
+
+}
+
+.t{
+    color:#ffffff;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+    
+}
+@media only screen and (min-width: 600px) and (max-width: 1276px){
+    .About{
+
+        background-color: #646f6d;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 750px;
+        width: 150%;
+    
+    }
+
+    
+    
+}
+
+@media only screen and  (min-width: 2000px)  and (max-width: 5276px){
+    .About{
+        background-color: #646f6d;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 750px;
+        width: 100%;
+    }
+}

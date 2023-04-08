@@ -1,0 +1,204 @@
+
+.Road{
+    height: 100dvh;
+    background: #0c1a13 ;
+    justify-content: space-evenly;
+    padding: 7%;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.357),rgba(0, 0, 0, 0.5)) ,  url('/src/assets/5386360.jpg'); */
+    background-size: cover;
+    
+}
+.box-1{
+    color: #ffffff;
+    height: 400px;
+    width: 330px;
+    border-radius: 60px 60px 60px;
+    background: rgba(255, 255, 255, 0.884);;;
+    padding: 2%;
+    position: relative;
+    text-align:left;
+    display: block;
+    gap: 5rem;
+
+}
+
+
+.layout1{
+    display: none;
+}
+.labell{
+    font-family: 'Jungle', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-display: fallback; 
+    color:#ffffff;    
+    font-weight: 800;  
+    font-size: 40px;    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+                                                
+}
+.layout{
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+    margin-top: 8%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+o{
+    height: 50px;
+    background: #ffff ;
+    width: 50%;  
+    margin-left: 65px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -55px;
+    border-radius: 50px;
+    font-family: 'Jungle', sans-serif;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #0c1a13;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    .layout{
+        display: none;
+    }
+    .layout1{
+        display: flex;
+        flex-direction: column;
+        height: 1400px;
+        justify-content: space-between;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+
+    }
+    
+.Road{
+    height: 100%;
+    background: #0c1a13 ;
+    justify-content: space-evenly;
+    padding: 7%;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.357),rgba(0, 0, 0, 0.5)) ,  url('/src/assets/5386360.jpg'); */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box-1{
+    color: #ffffff;
+    height: 400px;
+    width: 320px;
+    border-radius: 60px 60px 60px;
+    background: rgba(255, 255, 255, 0.884);;;
+    padding: 5%;
+    position: relative;
+    text-align:left;
+    display: block;
+    gap: 5rem;
+
+}
+o{
+    height: 50px;
+    background: #ffff ;
+    width: 50%;  
+    margin-left: 65px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -40px;
+    border-radius: 50px;
+    font-family: 'Jungle', sans-serif;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #0c1a13;
+    font-size: 20px;
+}
+
+}
+@media only screen and (min-width: 600px) and (max-width: 1276px){
+    .Road{
+        height: 150%;
+        background: #0c1a13 ;
+        justify-content: space-evenly;
+        padding: 7%;
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.357),rgba(0, 0, 0, 0.5)) ,  url('/src/assets/5386360.jpg'); */
+        background-size: cover;
+        width: 150%;
+        
+    }
+    .layout{
+        display: flex;
+        height: 150%;
+        justify-content: space-evenly;
+        margin-top: 8%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        gap: 1rem;
+    }
+    .box-1{
+        color: #ffffff;
+        height: 400px;
+        width: 300px;
+        border-radius: 60px 60px 60px;
+        background: rgba(255, 255, 255, 0.884);;;
+        padding: 2%;
+        position: relative;
+        text-align:left;
+        display: block;
+        gap: 1rem;
+    
+    }
+    o{
+        height: 50px;
+        background: #ffff ;
+        width: 50%;  
+        margin-left: 50px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -55px;
+        border-radius: 50px;
+        font-family: 'Jungle', sans-serif;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: #0c1a13;
+        font-size: 20px;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 3276px){
+    .Road{
+        height: 100%;
+        background: #0c1a13 ;
+        justify-content: space-evenly;
+        padding: 7%;
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.357),rgba(0, 0, 0, 0.5)) ,  url('/src/assets/5386360.jpg'); */
+        background-size: cover;
+        width: 100%;
+        
+    }
+    .layout{
+        display: flex;
+        height: 250%;
+        justify-content: space-evenly;
+        margin-top: 8%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        gap: 1rem;
+    }
+}

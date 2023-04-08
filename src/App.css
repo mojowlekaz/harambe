@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* position: relative; */
+
+}
+
+
+
+
+.nav{
+  display: flex;
+  height: 100px;
+  background: #0c1a13;
+  padding: 5px;
+  align-items: center;
+  background-size: cover;
+  justify-content:space-between;
+  
+  
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  
+}
+
+a{
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Tropical Forest', sans-serif;
+  font-size: 23px;
+  background-color: none;
+}
+#btn{
+  border: none;
+  justify-content: center;
+  /* height: 40px; */
+  /* margin-left: -60%; */
+  background: transparent;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+button{
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 50px;
+  width: 180px;
+  outline: none;
+  border: none;
+  color: #0c1a13;
+  font-size: 19px;
+  background-size:  0% 3px;
+  transition: background-color 300ms ease;
+}
+
+button:hover, :focus {
+  color:#ffffff;
+  background: #0c1a13;
+  border: 0.1px solid  #ffffff ;
+  background-size: 100% 3px;
+  transition: color 300ms ease-in;
+  transform:scaleX(1);
+}
+
+button:hover,   :focus {
+  color:#ffffff;
+  background: #0c1a13;
+}
+
+nav > ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 3em;
+    padding: 20px;
+    list-style: none;
+}
+
+p{
+  font-family: 'Tropical Forest', sans-serif;
+  font-size: 20px;
+                         
+}
+label{
+  font-family: 'Tropical Forest', sans-serif;
+  font-size: 23px;
+  
+}
+.nav .nav-btn{
+
+  cursor: pointer;
+  background: transparent;
+  border:none;
+  outline: none;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 20px;
+  float: right;
+  /* left: -300px; */
+  margin-left: -340px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/jungle?styles=12761');
+@import url('https://fonts.cdnfonts.com/css/tropical-forest');
+
+
+@media only screen and (min-width: 600px) and (max-width: 1276px){
+  .nav .nav-btn{
+
+    cursor: pointer;
+    background: transparent;
+    border:none;
+    outline: none;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 20px;
+    float: right;
+    /* left: -300px; */
+    margin-left: -100px;
+  }
+  .nav {
+    width: 150%;
+    display: flex;
+    }
+
+    nav{
+      display: grid;
+      position: sticky;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+    .nav{
+      display: flex;
+      height: 100px;
+      background: #0c1a13;
+      padding: 5px;
+      align-items: center;
+      background-size: cover;
+      justify-content:center;
+      
+      
+    }
+    nav > ul{
+      margin: 0;
+      list-style: none;
+      display: flex;
+      gap: 3em;
+      padding: 20px;
+      list-style: none;
+      justify-content: center;
+  }
+  nav >ul >li {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+.nav{
+  display: flex;
+  height: 100px;
+  background: #0c1a13;
+  padding: 5px;
+  align-items: center;
+  background-size: cover;
+  justify-content:space-between;
+  
+  
+}
+  
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+  *{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+  .nav .nav-btn{
+    visibility: visible;
+    opacity:1;
+    margin-left: 0px;
+
+
+    }
+
+    .nav nav{
+      position: fixed;
+      top: 20px;
+      left: 50;
+      bottom:0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      z-index:99;
+      gap: 1rem;
+      background: #0c1a13;
+      transition: 1s;
+      transform: translateY(-300vh);
+
+    }
+
+    .nav nav{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .nav .responsive_nav{
+      transform: none;
+      display: flex;
+      flex-direction: column;
+
+
+    }
+    .nav {
+    width: 100%;
+    display: flex;
+
+    }
+
+    nav{
+      display: grid;
+      position: sticky;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+    nav > ul{
+      margin: 0;
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+  }
+ 
+   
+
+  }
+
+
